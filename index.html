@@ -84,26 +84,74 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="https://memory-card-game-zfat.onrender.com/" target="_blank" class="image fit"><img src="https://wallpapers.com/images/featured/720p-nature-background-te0eo4yinuw49nh1.webp" alt="" /></a>
-										<header>
+									  <div class="modal" id="modal-1">
+										<div class="modal-content">
+											<span class="close-button" onclick="closeModal('#modal-1')">&times;</span>
+										  <img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="modal-image" />
+										  <div class="modal-info">
 											<h3>Memory Game</h3>
-										</header>
+											<p>
+												Challenge your intellect and dive into the world of the React Memory Card Game, a captivating blend of technology and memory prowess. Harnessing the power of React.js, HTML, CSS, and JavaScript, this project brings a contemporary twist to the timeless classic of memory card games. Immerse yourself in a universe of vibrant icons and intriguing card flips, where strategy and a sharp memory are your allies. Explore the enchanting realm of React components, event listeners, and hooks as you strive to conquer the 16-card battlefield. Experience the exhilaration of success as you pair cards and earn the title of memory master. The React Memory Card Game offers more than just entertainment; it's a testament to the creativity and expertise behind modern frontend development, enhanced by the visual charm of Bootstrap.</p>
+											<a href="https://memory-card-game-zfat.onrender.com/" target="_blank">Visit Project</a>
+										  </div>
+										</div>
+									  </div>
+								  
+									  <!-- Image that triggers the modal -->
+									  <a href="#" class="image fit open-modal" data-modal-id="#modal-1">
+										<img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="zoom-effect" />
+									  </a>
+								
+									  <header>
+										<h3>Memory Game</h3>
+									  </header>
 									</article>
+								  </div>
+								  
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<div class="modal" id="modal-2">
+											<div class="modal-content">
+												<span class="close-button" onclick="closeModal('#modal-2')">&times;</span>
+												<img src="images/Screenshot 2023-09-23 at 9.21.22 PM.png" alt="Third Project" class="modal-image" />
+												<div class="modal-info">
+													<h3>Third Project</h3>
+													<p>
+														Description of the third project goes here.
+													</p>
+													<a href="https://github.com/dontenatl30/CherishTheNightProject" target="_blank">Visit Project</a>
+												</div>
+											</div>
+										</div>
 
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/dontenatl30/CherishTheNightProject" target="_blank" class="image fit"><img src="https://wallpapers.com/images/high/720p-nature-background-j0nhkl8vtftov8ig.webp" alt="" /></a>
+										<a href="#" class="image fit open-modal" data-modal-id="#modal-2">
+											<img src="images/Screenshot 2023-09-23 at 9.21.22 PM.png" alt="Third Project" class="zoom-effect" />
+										</a>
 										<header>
-											<h3>FrontEnd Project</h3>
+											<h3>GitARound</h3>
 										</header>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" target="_blank" class="image fit"><img src="https://wallpapers.com/images/high/720p-nature-background-rjz5ucauqpgvu6xj.webp" alt="" /></a>
+									<div class="modal" id="modal-3">
+									<div class="modal-content">
+										<span class="close-button" onclick="closeModal('#modal-3')">&times;</span>
+									<img src="images/Screenshot 2023-09-23 at 10.05.06 PM.png" alt="GitARound" class="modal-image" />
+									<div class="modal-info">
+										<h3>PuzzleCrafts</h3>
+										<p>
+											Challenge your intellect and dive into the world of the React Memory Card Game, a captivating blend of technology and memory prowess. Harnessing the power of React.js, HTML, CSS, and JavaScript, this project brings a contemporary twist to the timeless classic of memory card games. Immerse yourself in a universe of vibrant icons and intriguing card flips, where strategy and a sharp memory are your allies. Explore the enchanting realm of React components, event listeners, and hooks as you strive to conquer the 16-card battlefield. Experience the exhilaration of success as you pair cards and earn the title of memory master. The React Memory Card Game offers more than just entertainment; it's a testament to the creativity and expertise behind modern frontend development, enhanced by the visual charm of Bootstrap.</p>
+										<a href="https://github.com/dontenatl30/CherishTheNightProject" target="_blank">Visit Project</a>
+									</div>
+									</div>
+								</div>
+							
+								<a href="#" class="image fit open-modal" data-modal-id="#modal-3">
+									<img src="images/Screenshot 2023-09-23 at 10.05.06 PM.png" alt="GitARound" class="zoom-effect" />
+								</a>
 										<header>
-											<h3>Capstone Project</h3>
+											<h3>PuzzleCrafts</h3>
 										</header>
 									</article>
 								</div>
@@ -235,37 +283,28 @@
 						</div>
 					</section>
 
-				<!-- Contact -->
 					<section id="contact" class="four">
 						<div class="container">
-
 							<header>
 								<h2>Contact</h2>
 							</header>
-
-							<p>Have a project in mind or a question about my services? Feel free to get in touch using the form below. I'm excited to hear from you and discuss how I can assist you in achieving your web development goals.
-								</p>
-
-							<form  action="mailto:atlanta201626@gmail.com" method="post">
+							<p>Have a project in mind or a question about my services? Feel free to get in touch using the form below. I'm excited to hear from you and discuss how I can assist you in achieving your web development goals.</p>
+							<form action="process.php" method="post">
 								<div class="row">
-									<!-- <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12 col-12-mobile"><input type="text" name="subject" placeholder="subject" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required /></div>
+									<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" required /></div>
+									<div class="col-12 col-12-mobile"><input type="text" name="subject" placeholder="Subject" required /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div> -->
-
-									<!-- https://mailtrap.io/blog/javascript-send-email/ -->
+										<textarea name="message" placeholder="Message" required></textarea>
+									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
 							</form>
-
 						</div>
 					</section>
-
-			</div>
+							</div>
 
 		<!-- Footer -->
 			<div id="footer">
@@ -285,6 +324,32 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+				function openModal(modalId) {
+					var modal = document.querySelector(modalId);
+					modal.style.display = "block";
+				}
+		
+				function closeModal(modalId) {
+					var modal = document.querySelector(modalId);
+					modal.style.display = "none";
+				}
+		
+				document.querySelectorAll(".open-modal").forEach(function(button) {
+					button.addEventListener("click", function () {
+						var modalId = this.getAttribute("data-modal-id");
+						openModal(modalId);
+					});
+				});
+				document.querySelectorAll(".close-button").forEach(function(button) {
+					button.addEventListener("click", function () {
+						var modalId = this.getAttribute("data-modal-id");
+						closeModal(modalId);
+					});
+				});
+			</script>
+			
 
 	</body>
 </html>
