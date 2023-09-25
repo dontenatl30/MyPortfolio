@@ -1,355 +1,571 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"
+            ><img
+              src="https://media.licdn.com/dms/image/D5603AQGZ-Pq-y5dtcw/profile-displayphoto-shrink_100_100/0/1693170368657?e=1700697600&v=beta&t=bddJC1op-AI74UqlNU8rq9whQ7n2c1zcM82mjy6k1fE"
+              alt=""
+          /></span>
+          <h1 id="title">LaDont'e LeBlanc</h1>
+          <p>Web Developer</p>
+        </div>
 
-		<!-- Header -->
-			<div id="header">
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home">Intro</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link"
+                ><span class="icon solid fa-th">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link"
+                ><span class="icon solid fa-user">About Me</span></a
+              >
+            </li>
+            <li>
+              <a href="#" id="contact-link"
+                ><span class="icon solid fa-th">My Languages</span></a
+              >
+            </li>
+            <li>
+              <a href="#ambitions" id="contact-link"
+                ><span class="icon solid fa-th">Ambitions</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link"
+                ><span class="icon solid fa-envelope">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-				<div class="top">
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/feed/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/dontenatl30"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="https://wallpapers.com/images/high/720p-beach-background-1280-x-1024-ns5r99pmv4ku3f9d.webp" alt="" /></span>
-							<h1 id="title">LaDont'e LeBlanc</h1>
-							<p>Web Developer</p>
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section
+        id="top"
+        class="one dark cover"
+        style="
+          background-image: url('https://www.hdwallpapers.in/thumbs/2021/view_of_mountain_grass_water_stream_with_background_of_blue_sky_and_clouds_during_sunset_hd_nature-t2.jpg');
+        "
+      >
+        <div class="container">
+          <header>
+            <h2 class="alt">
+              Hi! I'm <strong>Donte</strong>, A Full Stack Web Developer
+            </h2>
+          </header>
+
+          <footer>
+            <a href="#portfolio" class="button scrolly">My Portfolio</a>
+          </footer>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h2>Portfolio</h2>
+          </header>
+
+          <p>Journey through my Web Developer Portfolio</p>
+
+          <div class="row">
+            <div class="col-4 col-12-mobile">
+				<article class="item">
+					<div class="modal" id="modal-1">
+					  <div class="modal-content">
+						<span class="close-button" onclick="closeModal('#modal-1')">&times;</span>
+						<img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="modal-image" />
+						<div class="modal-info">
+						  <h3>Memory Game</h3>
+						  <p>
+							Challenge your intellect and dive into the world of the React Memory Card Game, a captivating blend of technology and memory prowess. Harnessing the power of React.js, HTML, CSS, and JavaScript, this project brings a contemporary twist to the timeless classic of memory card games. Immerse yourself in a universe of vibrant icons and intriguing card flips, where strategy and a sharp memory are your allies. Explore the enchanting realm of React components, event listeners, and hooks as you strive to conquer the 16-card battlefield. Experience the exhilaration of success as you pair cards and earn the title of memory master. The React Memory Card Game offers more than just entertainment; it's a testament to the creativity and expertise behind modern frontend development, enhanced by the visual charm of Bootstrap.
+						  </p>
+						  <a href="https://memory-card-game-zfat.onrender.com/" target="_blank">Visit Project</a>
 						</div>
+						<!-- Video element under the description -->
+						<video controls class="modal-video">
+						<source src="videos/Screen Recording 2023-09-24 at 5.12.32 PM.mov" type="video/webm">
+						Your browser does not support the video tag.
+						</video>
+					  </div>
+					</div>
+				  
+					<!-- Image that triggers the modal -->
+					<a href="#" class="image fit open-modal" data-modal-id="#modal-1">
+					  <img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="zoom-effect" />
+					</a>
+				  
+					<header>
+					  <h3>Memory Game</h3>
+					</header>
+				  </article>
+				  
+            </div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#" id="contact-link"><span class="icon solid fa-th">My Languages</span></a></li>
-								<li><a href="#ambitions" id="contact-link"><span class="icon solid fa-th">Ambitions</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <div class="modal" id="modal-2">
+                  <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('#modal-2')"
+                      >&times;</span
+                    >
+                    <img
+                      src="images/Screenshot 2023-09-23 at 9.21.22 PM.png"
+                      alt="Third Project"
+                      class="modal-image"
+                    />
+                    <div class="modal-info">
+                      <h3>GitARound</h3>
+                      <p>
+                        Description: GitARound is a dynamic web application that caters to motorcycle enthusiasts. It allows users to choose their perfect helmet, select a motorcycle, plan customized routes (fastest or safest), and receive real-time navigation with step-by-step directions. Developed with Bootstrap, JavaScript, CSS, and HTML, this project seamlessly blends aesthetics and functionality, demonstrating my proficiency in frontend development and mapping services integration. It's a valuable tool that enhances the riding experience and prioritizes safety while showcasing the potential of web development to serve niche communities.
+                      </p>
+                      <a
+                        href="https://github.com/dontenatl30/CherishTheNightProject"
+                        target="_blank"
+                        >Visit Project</a>
+                    </div>
+					<!-- Video element under the description -->
+					<video controls class="modal-video">
+					<source src="videos/Screen Recording 2023-09-24 at 6.37.44 PM.mov" type="video/webm">
+					 Your browser does not support the video tag.
+					</video>
+                  </div>
+                </div>
 
-				</div>
+                <a
+                  href="#"
+                  class="image fit open-modal"
+                  data-modal-id="#modal-2"
+                >
+                  <img
+                    src="images/Screenshot 2023-09-23 at 9.21.22 PM.png"
+                    alt="Third Project"
+                    class="zoom-effect"
+                  />
+                </a>
+                <header>
+                  <h3>GitARound</h3>
+                </header>
+              </article>
+            </div>
+            <div class="col-4 col-12-mobile">
+              <article class="item">
+                <div class="modal" id="modal-3">
+                  <div class="modal-content">
+                    <span class="close-button" onclick="closeModal('#modal-3')"
+                      >&times;</span
+                    >
+                    <img
+                      src="images/Screenshot 2023-09-23 at 10.05.06 PM.png"
+                      alt="GitARound"
+                      class="modal-image"
+                    />
+                    <div class="modal-info">
+                      <h3>PuzzleCrafts</h3>
+                      <p>
+						PuzzleCrafts is an engaging web application meticulously crafted with a tech stack featuring Node.js, Express, Sequelize, ElephantSQL, JavaScript, JWT, React, and Bootstrap. This user-friendly platform offers a unique blend of puzzle-solving and riddle-cracking challenges. Users can register, log in, and explore a variety of themed puzzles with adjustable difficulty levels, ensuring an exciting and personalized experience. Upon successfully completing a puzzle, users unlock intriguing riddles, providing an extra layer of entertainment. The application also empowers users to manage their profiles, enhancing the overall interactive journey. PuzzleCrafts showcases my proficiency in full-stack development and my dedication to creating captivating and user-centric web applications.
+                      </p>
+                      <a
+                        href="https://github.com/dontenatl30/Capstone-Project"
+                        target="_blank"
+                        >Visit Project</a>
+                    </div>
+					<!-- Video element under the description -->
+					<video controls class="modal-video">
+					<source src="videos/Screen Recording 2023-09-24 at 6.09.50 PM.mov" type="video/webm">
+					Your browser does not support the video tag.
+					</video>
+                  </div>
+                </div>
 
-				<div class="bottom">
+                <a
+                  href="#"
+                  class="image fit open-modal"
+                  data-modal-id="#modal-3"
+                >
+                  <img
+                    src="images/Screenshot 2023-09-23 at 10.05.06 PM.png"
+                    alt="GitARound"
+                    class="zoom-effect"
+                  />
+                </a>
+                <header>
+                  <h3>PuzzleCrafts</h3>
+                </header>
+              </article>
+            </div>
+			<div class="col-4 col-12-mobile">
+				<article class="item">
+				  <div class="modal" id="modal-4">
+					<div class="modal-content">
+					  <span class="close-button" onclick="closeModal('#modal-4')"
+						>&times;</span
+					  >
+					  <img
+						src="images/Screenshot 2023-09-24 at 1.43.35 PM.png"
+						alt="E-Commerce-Site"
+						class="modal-image"
+					  />
+					  <div class="modal-info">
+						<h3>E-Commerce Site</h3>
+						<p>
+							Introduce a groundbreaking shopping experience with the E-Commerce Site – an exceptional marketplace meticulously designed using React, Vite, HTML, and CSS. Powered by React Router Dom, this project embodies the essence of user-centric design, enhancing interactions through the convenience of client-side routing. Each click transforms into an exciting journey, updating URLs and seamlessly transitioning between pages, all achieved without the necessity of server requests.
+						</p>
+						<a
+						  href="https://github.com/dontenatl30/React-project-card-deploy"
+						  target="_blank"
+						  >Visit Project</a>
+					  </div>
+					  	<!-- Video element under the description -->
+						<video controls class="modal-video">
+							<source src="videos/Screen Recording 2023-09-24 at 6.18.19 PM.mov" type="video/webm">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				  </div>
+  
+				  <a
+					href="#"
+					class="image fit open-modal"
+					data-modal-id="#modal-4"
+				  >
+					<img
+					  src="images/Screenshot 2023-09-24 at 1.43.35 PM.png"
+					  alt="E-Commerce-Site"
+					  class="zoom-effect"
+					/>
+				  </a>
+				  <header>
+					<h3>E-Commerce Site</h3>
+				  </header>
+				</article>
+			  </div>
+   
+          </div>
+        </div>
+      </section>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/feed/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/dontenatl30" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
-						</ul>
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
 
-				</div>
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
 
-			</div>
+          <p>
+			I'm LaDonte LeBlanc, a passionate and creative web developer dedicated to bringing innovative digital solutions to life. My journey into web development was fueled by a deep passion for problem-solving and an unwavering commitment to finding solutions. Having spent years as a litigation adjuster, I developed a tenacity for tackling complex issues head-on.
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover" style="background-image: url('https://www.hdwallpapers.in/thumbs/2021/view_of_mountain_grass_water_stream_with_background_of_blue_sky_and_clouds_during_sunset_hd_nature-t2.jpg');">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Donte</strong>, A  Full Stack Web Developer </h2>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">My Portfolio</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>Journey through my Web Developer Portfolio </p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-									  <div class="modal" id="modal-1">
-										<div class="modal-content">
-											<span class="close-button" onclick="closeModal('#modal-1')">&times;</span>
-										  <img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="modal-image" />
-										  <div class="modal-info">
-											<h3>Memory Game</h3>
-											<p>
-												Challenge your intellect and dive into the world of the React Memory Card Game, a captivating blend of technology and memory prowess. Harnessing the power of React.js, HTML, CSS, and JavaScript, this project brings a contemporary twist to the timeless classic of memory card games. Immerse yourself in a universe of vibrant icons and intriguing card flips, where strategy and a sharp memory are your allies. Explore the enchanting realm of React components, event listeners, and hooks as you strive to conquer the 16-card battlefield. Experience the exhilaration of success as you pair cards and earn the title of memory master. The React Memory Card Game offers more than just entertainment; it's a testament to the creativity and expertise behind modern frontend development, enhanced by the visual charm of Bootstrap.</p>
-											<a href="https://memory-card-game-zfat.onrender.com/" target="_blank">Visit Project</a>
-										  </div>
-										</div>
-									  </div>
-								  
-									  <!-- Image that triggers the modal -->
-									  <a href="#" class="image fit open-modal" data-modal-id="#modal-1">
-										<img src="images/Screenshot 2023-09-23 at 8.21.45 PM.png" alt="Memory Card Game" class="zoom-effect" />
-									  </a>
-								
-									  <header>
-										<h3>Memory Game</h3>
-									  </header>
-									</article>
-								  </div>
-								  
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<div class="modal" id="modal-2">
-											<div class="modal-content">
-												<span class="close-button" onclick="closeModal('#modal-2')">&times;</span>
-												<img src="images/Screenshot 2023-09-23 at 9.21.22 PM.png" alt="Third Project" class="modal-image" />
-												<div class="modal-info">
-													<h3>Third Project</h3>
-													<p>
-														Description of the third project goes here.
-													</p>
-													<a href="https://github.com/dontenatl30/CherishTheNightProject" target="_blank">Visit Project</a>
-												</div>
-											</div>
-										</div>
-
-										<a href="#" class="image fit open-modal" data-modal-id="#modal-2">
-											<img src="images/Screenshot 2023-09-23 at 9.21.22 PM.png" alt="Third Project" class="zoom-effect" />
-										</a>
-										<header>
-											<h3>GitARound</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-									<div class="modal" id="modal-3">
-									<div class="modal-content">
-										<span class="close-button" onclick="closeModal('#modal-3')">&times;</span>
-									<img src="images/Screenshot 2023-09-23 at 10.05.06 PM.png" alt="GitARound" class="modal-image" />
-									<div class="modal-info">
-										<h3>PuzzleCrafts</h3>
-										<p>
-											Challenge your intellect and dive into the world of the React Memory Card Game, a captivating blend of technology and memory prowess. Harnessing the power of React.js, HTML, CSS, and JavaScript, this project brings a contemporary twist to the timeless classic of memory card games. Immerse yourself in a universe of vibrant icons and intriguing card flips, where strategy and a sharp memory are your allies. Explore the enchanting realm of React components, event listeners, and hooks as you strive to conquer the 16-card battlefield. Experience the exhilaration of success as you pair cards and earn the title of memory master. The React Memory Card Game offers more than just entertainment; it's a testament to the creativity and expertise behind modern frontend development, enhanced by the visual charm of Bootstrap.</p>
-										<a href="https://github.com/dontenatl30/CherishTheNightProject" target="_blank">Visit Project</a>
-									</div>
-									</div>
-								</div>
-							
-								<a href="#" class="image fit open-modal" data-modal-id="#modal-3">
-									<img src="images/Screenshot 2023-09-23 at 10.05.06 PM.png" alt="GitARound" class="zoom-effect" />
-								</a>
-										<header>
-											<h3>PuzzleCrafts</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-								<p>I'm LaDonte LeBlanc, a passionate and creative web developer dedicated to bringing innovative digital solutions to life. With a strong foundation in front-end and back-end technologies, I specialize in designing and building user-centric websites that seamlessly blend aesthetics with functionality.
-								<br>
-								
-								My journey in web development began with a fascination for coding languages like HTML, CSS, and JavaScript. As I honed my skills, I ventured into the world of dynamic web applications, diving into frameworks such as React and Angular. I thrive on solving complex challenges and am driven by a continuous desire to learn and adapt to the ever-evolving landscape of web development.
-								<br>
-								
-								My approach to web development goes beyond just writing code. I believe in the power of collaboration and open communication. I work closely with clients to understand their unique needs and goals, ensuring that each project I undertake is not just a website, but a tailored digital experience.
-								<br>
-								
-								Whether you're a business looking to establish an online presence, a startup seeking to disrupt the market, or an individual with a creative vision, I am here to transform your ideas into captivating and functional web solutions. Explore my portfolio to see examples of my work and the diverse range of projects I've had the privilege to contribute to.
-								<br>
-								
-								Let's embark on a journey of innovation together. Feel free to reach out and let's discuss how we can turn your web development aspirations into reality.</p>
-
-						</div>
-					</section>
-
-					<section id="knowledge" class="three">
-						<div class="container">
-
-							<header>
-								<h2>My Languages</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<div class="row justify-content-center cssTran">
-								<div class="col-4 my-4 my-md-0 tcolor">
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2 mt-2" src="/images/icons8-html-5-48.png">
-									<p class="mb-3 tcolor">HTML5</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-css3-48.png">
-									<p class="mb-3 tcolor">CSS3</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-javascript-50.png">
-									<p class="mb-3">JavaScript</p>
-								  </div>
-								</div>
-								<div class="col-4 my-4 my-md-0 tcolor">
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2 mt-2" src="/images/icons8-jquery-50.png">
-									<p class="mb-3">jQuery</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-bootstrap-48.png">
-									<p class="mb-3">Bootstrap</p>
-								  </div>
-
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-git-48.png">
-									<p class="mb-2">Git</p>
-								  </div>
-								</div>
-								<div class="col-4 my-4 my-md-0 tcolorx">
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2 mt-2" src="images/icons8-mysql-50.png">
-									<p class="mb-3 tcolor">MySQL</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-node-js-48.png">
-									<p class="mb-3 tcolor">Node.js</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-react-40.png">
-									<p class="mb-3 tcolor">React</p>
-								  </div>
-								  <div class="techLogoLabelDiv">
-									<img class="techLogo mb-2" src="images/icons8-redux-48.png">
-									<p class="mb-3 tcolor">Redux</p>
-								  </div>
-
-								</div>
-							  </div>
-
-							<footer>
-								<a href="/images/SDE RESUME.pdf" target="_blank" class="button scrolly">My Resume</a>
-							</footer>
-
-						</div>
-					</section>
-
-					<section id="ambitions" class="three">
-						<div class="container">
-
-							<header>
-								<h2>My Ambitions</h2>
-							</header>
-							
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>A try coder understands this field is ever changing and is always looking to learn new languages</p>
-							<div class="col-4 my-4 my-md-0 tcolor">
-							<div class="techLogoLabelDiv">
-								<img class="techLogo mb-2 " src="images/icons8-python-48.png">
-								<p class="mb-2">Python</p>
-							  </div>
-							<div class="techLogoLabelDiv">
-								<img class="techLogo mb-2" src="images/icons8-amazon-web-services-48.png">
-								<p class="mb-3">AWS</p>
-							  </div>
-
-							  <div class="techLogoLabelDiv">
-								<img class="techLogo mb-2" src="images/icons8-linux-50.png">
-								<p class="mb-2 tcolor">Linux</p>
-							  </div>
-							</div>
-						</div>
-					</section>
-
-					<section id="contact" class="four">
-						<div class="container">
-							<header>
-								<h2>Contact</h2>
-							</header>
-							<p>Have a project in mind or a question about my services? Feel free to get in touch using the form below. I'm excited to hear from you and discuss how I can assist you in achieving your web development goals.</p>
-							<form action="process.php" method="post">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required /></div>
-									<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" required /></div>
-									<div class="col-12 col-12-mobile"><input type="text" name="subject" placeholder="Subject" required /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message" required></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-						</div>
-					</section>
-							</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; LaDonte LeBlanc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-			<script>
-				function openModal(modalId) {
-					var modal = document.querySelector(modalId);
-					modal.style.display = "block";
-				}
-		
-				function closeModal(modalId) {
-					var modal = document.querySelector(modalId);
-					modal.style.display = "none";
-				}
-		
-				document.querySelectorAll(".open-modal").forEach(function(button) {
-					button.addEventListener("click", function () {
-						var modalId = this.getAttribute("data-modal-id");
-						openModal(modalId);
-					});
-				});
-				document.querySelectorAll(".close-button").forEach(function(button) {
-					button.addEventListener("click", function () {
-						var modalId = this.getAttribute("data-modal-id");
-						closeModal(modalId);
-					});
-				});
-			</script>
+			My fascination with coding languages like HTML, CSS, and JavaScript led me to explore the world of dynamic web applications, where I delved into frameworks such as React and Angular. I thrive on the challenge of solving intricate problems and continuously seek out new and interesting ways to address them, drawing from a wide range of resources.
 			
+			My approach to web development goes beyond mere code; it's about collaboration and open communication. I work closely with clients to understand their unique needs and goals, ensuring that every project I undertake becomes a tailored digital experience.
+			
+			Whether you're a business looking to establish an online presence, a startup aiming to disrupt the market, or an individual with a creative vision, I'm here to transform your ideas into captivating and functional web solutions. Explore my portfolio to see examples of my work across a diverse range of projects.
+			
+			Let's embark on a journey of innovation together. Feel free to reach out, and let's discuss how we can turn your web development aspirations into reality.
+          </p>
+        </div>
+      </section>
 
-	</body>
+      <section id="knowledge" class="three">
+        <div class="container">
+          <header>
+            <h2>My Languages</h2>
+          </header>
+
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
+
+          <div class="row justify-content-center cssTran">
+            <div class="col-4 my-4 my-md-0 tcolor">
+              <div class="techLogoLabelDiv">
+                <img
+                  class="techLogo mb-2 mt-2"
+                  src="/images/icons8-html-5-48.png"
+                />
+                <p class="mb-3 tcolor">HTML5</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="images/icons8-css3-48.png" />
+                <p class="mb-3 tcolor">CSS3</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img
+                  class="techLogo mb-2"
+                  src="images/icons8-javascript-50.png"
+                />
+                <p class="mb-3">JavaScript</p>
+              </div>
+            </div>
+            <div class="col-4 my-4 my-md-0 tcolor">
+              <div class="techLogoLabelDiv">
+                <img
+                  class="techLogo mb-2 mt-2"
+                  src="/images/icons8-jquery-50.png"
+                />
+                <p class="mb-3">jQuery</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img
+                  class="techLogo mb-2"
+                  src="images/icons8-bootstrap-48.png"
+                />
+                <p class="mb-3">Bootstrap</p>
+              </div>
+
+              <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="images/icons8-git-48.png" />
+                <p class="mb-2">Git</p>
+              </div>
+            </div>
+            <div class="col-4 my-4 my-md-0 tcolorx">
+              <div class="techLogoLabelDiv">
+                <img
+                  class="techLogo mb-2 mt-2"
+                  src="images/icons8-mysql-50.png"
+                />
+                <p class="mb-3 tcolor">MySQL</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="images/icons8-node-js-48.png" />
+                <p class="mb-3 tcolor">Node.js</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="images/icons8-react-40.png" />
+                <p class="mb-3 tcolor">React</p>
+              </div>
+              <div class="techLogoLabelDiv">
+                <img class="techLogo mb-2" src="images/icons8-redux-48.png" />
+                <p class="mb-3 tcolor">Redux</p>
+              </div>
+            </div>
+          </div>
+
+          <footer>
+            <a
+              href="images/SDE Resume-2.pdf"
+              target="_blank"
+              class="button scrolly"
+              >My Resume</a
+            >
+          </footer>
+        </div>
+      </section>
+
+      <section id="ambitions" class="three">
+        <div class="container">
+          <header>
+            <h2>My Ambitions</h2>
+          </header>
+
+          <a href="#" class="image featured"
+            ><img src="images/pic08.jpg" alt=""
+          /></a>
+
+          <p>
+            A try coder understands this field is ever changing and is always
+            looking to learn new languages
+          </p>
+          <div class="col-4 my-4 my-md-0 tcolor">
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="images/icons8-python-48.png" />
+              <p class="mb-2">Python</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img
+                class="techLogo mb-2"
+                src="images/icons8-amazon-web-services-48.png"
+              />
+              <p class="mb-3">AWS</p>
+            </div>
+
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="images/icons8-linux-50.png" />
+              <p class="mb-2 tcolor">Linux</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+	  <section id="contact" class="four">
+		<div class="container">
+			<header>
+				<h2>Contact</h2>
+			</header>
+			<div class="contact-info">
+				<div class="contact-item">
+					<i class="fas fa-phone"></i>
+					<span>Phone :</span>
+					<p>(470)-263-7110</p>
+				</div>
+				<div class="contact-item">
+					<i class="fas fa-envelope"></i>
+					<span>Email :</span>
+					<p>atlanta201626@gmail.com</p>
+				</div>
+				<div class="contact-item">
+					<i class="fas fa-map-marker-alt"></i>
+					<span>Address :</span>
+					<p>821 Ivey Park Ln. Peachtree Corners, GA 30092</p>
+				</div>
+			</div>
+			<p>
+				Have a project in mind or a question about my services? Feel free to
+				get in touch using the form below. I'm excited to hear from you and
+				discuss how I can assist you in achieving your web development
+				goals.
+			</p>
+			<form
+				action="mailto:atlanta201626@gmail.com"
+				method="post"
+				enctype="text/plain"
+			>
+				<input type="text" name="name" placeholder="Name" />
+				<input type="email" name="email" placeholder="Email" />
+				<textarea name="message" placeholder="Message"></textarea>
+				<input type="submit" value="Send" />
+			</form>
+		</div>
+	</section>
+	
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; LaDonte LeBlanc. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      function openModal(modalId) {
+        var modal = document.querySelector(modalId);
+        modal.style.display = "block";
+      }
+
+      function closeModal(modalId) {
+        var modal = document.querySelector(modalId);
+        modal.style.display = "none";
+      }
+
+      document.querySelectorAll(".open-modal").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var modalId = this.getAttribute("data-modal-id");
+          openModal(modalId);
+        });
+      });
+      document.querySelectorAll(".close-button").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var modalId = this.getAttribute("data-modal-id");
+          closeModal(modalId);
+        });
+      });
+    </script>
+
+    <!-- <script>
+				document.addEventListener("DOMContentLoaded", function () {
+    // Capture the form submission event
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Debugging: Log a message to check if the event listener is triggered
+        console.log("Form submission triggered.");
+
+        // Retrieve form data
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
+
+        // Debugging: Log form data to check if it's correctly retrieved
+        console.log("Name: " + name);
+        console.log("Email: " + email);
+        console.log("Subject: " + subject);
+        console.log("Message: " + message);
+
+        // Compose the email message (you can customize this format)
+        var emailMessage = "Name: " + name + "\n";
+        emailMessage += "Email: " + email + "\n";
+        emailMessage += "Subject: " + subject + "\n\n";
+        emailMessage += "Message:\n" + message;
+
+        // Debugging: Log the email message
+        console.log("Email Message:\n" + emailMessage);
+
+        // Optionally, provide user feedback (e.g., "Your message has been sent successfully.")
+
+        // Ensure that the form submission process is working up to this point before implementing email sending.
+    });
+});
+
+			</script> -->
+  </body>
 </html>

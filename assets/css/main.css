@@ -1850,7 +1850,8 @@ input, select, textarea {
 	form select,
 	form textarea {
 		position: relative;
-		-webkit-appearance: none;
+		-webkit-appearance: none; /* Reset 'appearance' for compatibility */
+		appearance: none;
 		display: block;
 		border: 0;
 		outline: 0;
@@ -2696,3 +2697,10 @@ input, select, textarea {
 .zoom-effect:hover {
     transform: scale(1.1);
 }
+
+
+.modal-video {
+	width: 100%; /* Set the width as a percentage of its container */
+	max-width: 400px; /* Set a maximum width if needed */
+	height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
